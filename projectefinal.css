@@ -1,0 +1,132 @@
+body {background-color: #ECECEC; overflow-x: hidden;
+}
+
+.fondop{
+	background-image: url("./imatges/fondo.jpg");
+}
+#box1 {
+padding:10px;
+background-color: rgba(0,0,0,0.6);
+color: #FFFFFF;
+margin: 20px;
+border-radius: 0% 0% 0% 0%;
+-webkit-border-radius: 30px;
+border: 4px solid #FFEC00;
+box-shadow: 6px 10px 10px;
+}
+.box2 {
+padding:10px;
+background-color: rgba(0,0,0,0.6);
+color: #FFFFFF;
+margin: 20px;
+margin-top: 90px;
+margin-bottom: 40px;
+-webkit-border-radius: 30px;
+border: 4px solid #C400E7;
+box-shadow: 6px 10px 10px;
+}
+
+p {text-align: left; margin-top: -1.0%;}
+h1 {color: #FF7800; margin-top: 0%}
+h2 {color: #1AF900}
+iframe{border: 4px solid #00F9DA;}
+
+.footer {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   background-image: url("./imatges/fondoc.png");
+   color: white;
+   text-align: center;
+   border-top:  2px solid #000000;
+}
+
+/*logo instagram*/
+.logo1{
+	padding-right: 0%;
+   padding-left: 0%;
+	width: 50px;
+   margin: 4px;
+}
+
+/*logo twitter*/
+.logo2{
+   width: 100%;
+    margin: 13%;
+    width: 55px;
+    border-radius: 0px 0% 0% 0%;
+    position:absolute;
+    left: 70px;
+    margin: 4px;
+ }
+
+ /*logo support*/
+ .logo3{
+   width: 100%;
+    margin: 13%;
+    width: 55px;
+    border-radius: 0px 0% 0% 0%;
+    position:absolute;
+    left: 1250px;
+    margin: 4px;
+ }
+#img {position:absolute; top:180px}
+#img {position:absolute; bottom:80px}
+#img {position:absolute; left:500px}
+#img {position:absolute; right:20px}
+
+.link{
+   background-repeat: no-repeat;
+   padding: 0 auto;
+   position:absolute;
+   margin: 0 auto;
+   left: 0px;
+}
+
+}
+.identificació{
+   text-align: left;
+   bottom: 0px;
+   right: all;
+}
+/*colors links*/
+.vermell{
+   color: #FF0000;
+}
+.blau{
+   color: #2300FF;
+}
+.groc{
+   color: #FFF700;
+}
+.taronga{
+   color: #FF8F00;
+}
+.fuchsia{
+   color: #FF00E8;
+}
+.blanc {
+   color: #FFFFFF;
+   line-height: 20pt; 
+}
+ 
+.blanc:hover {
+  color: #3EB7DE;
+}
+nav a:hover{
+   background-color: #03F5ED;
+   -webkit-border-radius: 15px;
+}
+
+
+.taula {
+    width:230px;
+    font:normal 13px Arial;
+    text-align:left;
+    border-collapse:collapse;
+    font:bold 15px Arial;
+    border: 2px solid #39FB00;
+    -webkit-border-radius: 30px;
+}
+
+    
