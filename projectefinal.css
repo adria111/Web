@@ -1,9 +1,20 @@
-body {background-color: #ECECEC; overflow-x: hidden;
+body{
+  font:14px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color: #ECECEC; overflow-x: hidden;
 }
+
+p {text-align: left; margin-top: -1.0%;}
+h1 {color: #FF7800; margin-top: 0%;font-size: 250%;font-family: algerian;}
+h2 {color: #1AF900;font-size: 190%;font-family: baskerville old face;}
+iframe{border: 4px solid #00F9DA;}
+
 
 .fondop{
 	background-image: url("./imatges/fondo.jpg");
 }
+/*Caixa de text index, cartes i cofres*/
 #box1 {
 padding:10px;
 background-color: rgba(0,0,0,0.6);
@@ -14,6 +25,7 @@ border-radius: 0% 0% 0% 0%;
 border: 4px solid #FFEC00;
 box-shadow: 6px 10px 10px;
 }
+/*Caixa de text arenas*/
 .box2 {
 padding:10px;
 background-color: rgba(0,0,0,0.6);
@@ -26,11 +38,6 @@ border: 4px solid #C400E7;
 box-shadow: 6px 10px 10px;
 }
 
-p {text-align: left; margin-top: -1.0%;}
-h1 {color: #FF7800; margin-top: 0%}
-h2 {color: #1AF900}
-iframe{border: 4px solid #00F9DA;}
-
 .footer {
    position: absolute;
    left: 0;
@@ -40,7 +47,26 @@ iframe{border: 4px solid #00F9DA;}
    text-align: center;
    border-top:  2px solid #000000;
 }
-
+.footercofres {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   background-image: url("./imatges/fondoc.png");
+   color: white;
+   text-align: center;
+   border-top:  2px solid #000000;
+   margin-top: 185px;
+}
+.footersessio {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   background-image: url("./imatges/fondoc.png");
+   color: white;
+   text-align: center;
+   border-top:  2px solid #000000;
+   margin-top: 30px;
+}
 /*logo instagram*/
 .logo1{
 	padding-right: 0%;
@@ -70,24 +96,40 @@ iframe{border: 4px solid #00F9DA;}
     left: 1250px;
     margin: 4px;
  }
+ /*Logo YT clash royale*/
+ .logo4{
+   width: 100%;
+    margin: 5%;
+    width: 60px;
+    border-radius: 0px 0% 0% 0%;
+    position:absolute;
+    left: 140px;
+    margin: 10px;
+ }
+
+ /*posició imatge arena*/
 #img {position:absolute; top:180px}
 #img {position:absolute; bottom:80px}
 #img {position:absolute; left:500px}
 #img {position:absolute; right:20px}
 
+.cofre{
+    position:relative; left: 20px;
+    -webkit-border-radius: 70px;
+    border: 2px solid #000000;
+    width: 200px; height: 200px;
+}
+
 .link{
    background-repeat: no-repeat;
-   padding: 0 auto;
    position:absolute;
    margin: 0 auto;
    left: 0px;
 }
 
-}
 .identificació{
    text-align: left;
    bottom: 0px;
-   right: all;
 }
 /*colors links*/
 .vermell{
@@ -113,12 +155,18 @@ iframe{border: 4px solid #00F9DA;}
 .blanc:hover {
   color: #3EB7DE;
 }
+.pseudo{
+    background-color: lightblue;
+}
 nav a:hover{
    background-color: #03F5ED;
    -webkit-border-radius: 15px;
 }
+.lila:hover {
+  color: #e02dd7;
+}
 
-
+/*taula document arenas*/
 .taula {
     width:230px;
     font:normal 13px Arial;
@@ -129,4 +177,19 @@ nav a:hover{
     -webkit-border-radius: 30px;
 }
 
-    
+/*posició imatge montapuercos del document cartas*/
+.monta{
+  width: 200px;
+  height: 200px;
+  position:absolute; top:370px; position:absolute; bottom:80px; position:absolute; left:350px; position:absolute; right:20px;
+}
+
+/*posició imatge pekka del document cartas*/
+.pekka{
+  width: 200px;
+  height: 200px;
+  position:absolute; top:370px; position:absolute; bottom:80px; position:absolute; left:500px; position:absolute; right:20px;
+}  
+
+
+
